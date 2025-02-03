@@ -1,0 +1,14 @@
+a = int(input())
+b = input()
+
+c= b.count("A")
+d= b.count("D")
+
+if c>d:
+    print("Anton")
+    
+elif d>c:
+    print("Danik")
+    
+elif d==c:
+    print("Friendship")
