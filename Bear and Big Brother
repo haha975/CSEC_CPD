@@ -1,0 +1,7 @@
+L,b=[int(x) for x in input().split()]
+n=0
+while b>=L:
+    n+=1
+    b=b*2
+    L=L*3
+print(n)
